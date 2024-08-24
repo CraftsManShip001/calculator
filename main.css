@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    display: flex;
+    border: 1px solid red;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .calculator {
+    display: flex;
+    border: 1px solid red;
+    width: 350px;
+    height: 500px;
+    flex-direction: column;
+    padding: 25px;
+    border-radius: 10px;
+  }
+  .results {
+    overflow-y: scroll;
+    display: flex;
+    border: 1px solid purple;
+    width: 350px;
+    height: 500px;
+    flex-direction: column;
+    padding: 25px;
+    border-radius: 10px;
+    margin-left:50px;
+  }
+  .remove {
+    visibility: hidden;
+    position: fixed;
+  }
+  .display {
+    display: flex;
+    border: 1px solid green;
+    flex: 10%;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 3%;
+    border-radius: 10px;
+}
+.result_display {
+    display: flex;
+    border: 1px solid green;
+    height:10%;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 3%;
+    border-radius: 10px;
+}
+.controller {
+    display: flex;
+    flex: 70%;
+    border: 1px solid green;
+    flex-direction: column;
+    padding: 3%;
+    border-radius: 10px;
+}
+.buttons {
+    display: flex;
+    border: 1px solid blue;
+    flex: auto;
+    justify-content: space-evenly;
+}
+button {
+    border: 1px solid purple;
+          width: 52px;
+    height: 52px;
+    margin: 2%;
+    border-radius: 50px;
+}
+
+  .display {
+    display: flex;
+    border: 2px solid #465767;
+    background-color: #92C2DD;
+    box-shadow: 1px 1px 5px #465767 inset;
+    flex: 10%;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 3%;
+    border-radius: 10px;
+    font-size: 2rem;
+    color: #27313a;
+}
+
+.controller {
+    display: flex;
+    flex: 70%;
+    border: 2px solid #465767;
+    background-color: white;
+    flex-direction: column;
+    padding: 3%;
+    border-radius: 10px;
+}
+.buttons {
+    display: flex;
+    /* border: 1px solid blue; */ /* 지워준다. */
+    flex: auto;
+    justify-content: space-evenly;
+}
+button {
+    border: 2px solid #465767;
+    width: 52px;
+    height: 52px;
+    margin: 2%;
+    border-radius: 50px;
+    box-shadow: 0px 4px 0px #465767;
+    font-size: 1.5rem;
+    color: #465767;
+}
+.gray {
+    background-color: #D6D6D8;
+}
+.pink{
+    background-color: pink;
+}
+.blue {
+    background-color: #92C2DD;
+}
+
+.yellow {
+    background-color: #F5D473;
+}
+
+.red {
+    background-color: #D26C59;
+}
+
+.orange {
+    background-color: #DA943F;
+}
+
+.green {
+    background-color: #6FC0A3;
+}
+.blue:active {
+    box-shadow: 0 0 #465767;
+    background-color: #49616F;
+    color: white;
+}
+.pink:active{
+    box-shadow: 0 0 #465767;
+    background-color: #49616F;
+    color: white;
+}
+.gray:active {
+    box-shadow: 0 0 #465767;
+    background-color: #6B6B6C;
+    color: white;
+}
+
+.yellow:active {
+    box-shadow: 0 0 #465767;
+    background-color: #7B6A3A;
+    color: white;
+}
+
+.red:active {
+    box-shadow: 0 0 #465767;
+    background-color: #69362D;
+    color: white;
+}
+
+.orange:active {
+    box-shadow: 0 0 #465767;
+    background-color: #6D4A20;
+    color: white;
+}
+
+.green:active {
+    box-shadow: 0 0 #465767;
+    background-color: #386052;
+    color: white;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>계산기</title>
+    <link rel = "stylesheet" href = "main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="display">0</div>
+            <div class="controller">
+                <div class="buttons">
+                    <button class="blue">a</button>
+                    <button class="yellow">ac</button>
+                    <button class="pink">♥</button>
+                    <button class="orange">★</button>
+                </div>
+                <div class="buttons">
+                    <button class="gray" data-n="7">7</button>
+                    <button class="gray" data-n="8">8</button>
+                    <button class="gray" data-n="9">9</button>
+                    <button class="green" data-n="+">+</button>
+                </div>
+                <div class="buttons">
+                    <button class="gray" data-n="4">4</button>
+                    <button class="gray" data-n="5">5</button>
+                    <button class="gray" data-n="6">6</button>
+                    <button class="green" data-n="-">-</button>
+                </div>
+                <div class="buttons">
+                    <button class="gray" data-n="1">1</button>
+                    <button class="gray" data-n="2">2</button>
+                    <button class="gray" data-n="3">3</button>
+                    <button class="green" data-n="*">*</button>
+                </div>
+                <div class="buttons">
+                    <button class="gray" data-n="0">0</button>
+                    <button class="gray" data-n=".">.</button>
+                    <button class="red">=</button>
+                    <button class="green" data-n="/">/</button>
+                </div>
+            </div> 
+        </div>
+        <div class = "results remove">
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src = "index.js"></script>
+</body>
+</html>
